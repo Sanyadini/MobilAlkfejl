@@ -1,41 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/main"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="24dp"
-        tools:context=".Register">
-
+        android:layout_height="wrap_content">
         <ImageView
             android:id="@+id/background_tree"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:alpha="0.1"
-            android:importantForAccessibility="no"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.08"
             android:scaleType="centerCrop"
             android:src="@drawable/baseline_account_tree_24"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-
-        <TextView
-            android:id="@+id/family_birth"
-            android:layout_width="wrap_content"
+            android:contentDescription="@null" />
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Itt lesz kirajzolva a családfa: ..."
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:orientation="vertical"
+            android:padding="24dp">
+            <Button
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/green"
+                android:text="Vissza"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/refresh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/green"
+                android:text="Oldal újratöltése"
+                android:textColor="@color/white" />
+            <Button
+                android:id="@+id/szelso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/green"
+                android:text="Szélsőértékek lekérése"
+                android:textColor="@color/white" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/szelsosegek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:paddingBottom="16dp" />
+
+            <LinearLayout
+                android:id="@+id/family_list_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </FrameLayout>
 </ScrollView>

@@ -8,4 +8,7 @@
     <string name="csaladfa">Családfám</string>
     <string name="addfamily">Családtag hozzáadása</string>
     <string name="list">Családom listázása</string>
+    <string name="title_activity_family_member_mod">FamilyMemberModActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>

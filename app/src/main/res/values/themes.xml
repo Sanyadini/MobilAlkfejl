@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.N5WNTL" parent="Base.Theme.N5WNTL" />
+    <style name="Theme.N5WNTL.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.N5WNTL.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.N5WNTL.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
