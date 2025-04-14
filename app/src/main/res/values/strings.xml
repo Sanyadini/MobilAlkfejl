@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mobilalkfejl</string>
+    <string name="bejelentkezes">Bejelentkezés</string>
+    <string name="email">Email</string>
+    <string name="jelszo">Jelszó</string>
+    <string name="regisztracio">Regisztráció</string>
+    <string name="kijelentkezes">Kijelentkezés</string>
+    <string name="csaladfa">Családfám</string>
+    <string name="addfamily">Családtag hozzáadása</string>
+    <string name="list">Családom listázása</string>
+</resources>

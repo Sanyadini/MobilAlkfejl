@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "373478645548",
+    "project_id": "mobilalkfejl-dcac9",
+    "storage_bucket": "mobilalkfejl-dcac9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373478645548:android:ba048a3ea08294fab59689",
+        "android_client_info": {
+          "package_name": "com.example.mobilalkfejl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBybeLYnHSI1tJ1ksx3D5_T3Rpnb6TigG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373478645548:android:d8b7295f32b2069eb59689",
+        "android_client_info": {
+          "package_name": "com.example.n5wntl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBybeLYnHSI1tJ1ksx3D5_T3Rpnb6TigG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
